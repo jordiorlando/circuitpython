@@ -1,0 +1,14 @@
+USB_VID = 0x1209
+USB_PID = 0x9150
+USB_PRODUCT = "SAM-ISM"
+USB_MANUFACTURER = "Zeroform Design"
+
+CHIP_VARIANT = SAMD21E18A
+CHIP_FAMILY = samd21
+
+SPI_FLASH_FILESYSTEM = 1
+EXTERNAL_FLASH_DEVICES = GD25Q16C
+LONGINT_IMPL = MPZ
+
+# Include these Python libraries in firmware.
+FROZEN_MPY_DIRS += $(TOP)/frozen/Adafruit_CircuitPython_RFM69
